@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>¡Buenos dias, Sofia!❤️‍🔥.</strong>
+                        <p>
+                            Este mensaje es para ti como agradecimiento por el simpre hecho de existir y hacer la vida de 
+                            todos mas feliz con tu presencia.
+                            Eres honesta, inteligente y amable y asi como me gusta todo esto de tí se que a los demás tambien.
+                            Lindo dia, preciosa..✨ 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+
+<body>
+    <audio src="audio/WhatsApp Audio 2024-09-23 at 23.40.25.mpeg" autoplay></audio>
+
+
+
+</html>
